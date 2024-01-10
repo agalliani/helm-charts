@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/agalliani/helm-charts/releases/download/chart_test_01-0.1.0/chart_test_01-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-10T11:56:35.37663946Z"
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-01-10T12:19:04.560855569Z"
+    description: A Helm chart for Kubernetes
+    digest: e8e3a4fabd9b40de14e89359a51f99b433f9ac09d6b1e9644bad71fda3b2a2c2
+    name: mychart
+    type: application
+    urls:
+    - https://github.com/agalliani/helm-charts/releases/download/mychart-0.1.0/mychart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-10T12:19:04.560868322Z"
