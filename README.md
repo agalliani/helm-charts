@@ -28,3 +28,6 @@ When you want to test the template rendering, but not actually install anything,
 This will render the templates. But instead of installing the chart, it will return the rendered template to you so you can see the output
 
 Using --dry-run will make it easier to test your code, but it won't ensure that Kubernetes itself will accept the templates you generate. It's best not to assume that your chart will install just because --dry-run works.
+
+## Access to the index.yaml 
+Visit the page https://agalliani.github.io/helm-charts/index.yaml
