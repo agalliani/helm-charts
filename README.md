@@ -21,6 +21,7 @@ To uninstall the chart:
 
 
 ## Development trick
+
 When you want to test the template rendering, but not actually install anything, you can use 
 
     helm install --debug --dry-run goodly-guppy ./mychart
@@ -30,4 +31,5 @@ This will render the templates. But instead of installing the chart, it will ret
 Using --dry-run will make it easier to test your code, but it won't ensure that Kubernetes itself will accept the templates you generate. It's best not to assume that your chart will install just because --dry-run works.
 
 ## Access to the index.yaml 
-Visit the page https://agalliani.github.io/helm-charts/index.yaml
+
+Visit the page: [https://agalliani.github.io/helm-charts/index.yaml](https://agalliani.github.io/helm-charts/index.yaml)
